@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 public class basics1 extends AppCompatActivity {
 
@@ -27,7 +28,8 @@ public class basics1 extends AppCompatActivity {
         boy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                display WELL DONE
+
+                Toast.makeText(v.this,"WELL DONE!!",Toast.LENGTH_SHORT).show();
             }
         });
 
