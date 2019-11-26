@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -18,6 +19,8 @@ public class beginner_one extends AppCompatActivity {
     ImageButton imgsettings;
 
     TextView t1;
+
+    Button b1;
 
     String language;
 
@@ -32,6 +35,8 @@ public class beginner_one extends AppCompatActivity {
 
         t1 = (TextView) findViewById(R.id.beginnerlanguage);
 
+        b1 = (Button) findViewById(R.id.basics1);
+
         t1.setText(language);
 
         imgsettings = findViewById(R.id.iconsettings);
@@ -44,6 +49,13 @@ public class beginner_one extends AppCompatActivity {
             }
         });
 
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new intent(beginner_one.this,basics1.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

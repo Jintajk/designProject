@@ -16,8 +16,10 @@ public class advanced extends AppCompatActivity {
 
     ImageButton imgsettings;
     Button passge,video;
+    Button b1;
 
     TextView t1;
+
 
     String language;
 
@@ -34,6 +36,14 @@ public class advanced extends AppCompatActivity {
 
         t1.setText(language);
 
+        b1 = (Button)findViewById(R.id.basics1);
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent
+            }
+        });
 
         imgsettings = findViewById(R.id.iconsettings);
         passge = findViewById(R.id.adv1);
