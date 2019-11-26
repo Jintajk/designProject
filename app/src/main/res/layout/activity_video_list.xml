@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgrndclr"
+    tools:context=".Video_list">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bkgrndclr">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text=" Videos "
+                android:fontFamily="serif-monospace"
+                android:textColor="@color/Black"
+                android:textSize="30dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp">
+
+            <Button
+                android:id="@+id/passage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="1. The Greatest Tressure"
+                android:fontFamily="serif"
+                android:textAllCaps="false"
+                android:background="#ffffc8"
+                android:textSize="20sp">
+            </Button>
+
+            <Button
+                android:id="@+id/passage2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="2.The Beetle and the Silken Thread"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:fontFamily="serif"
+                android:layout_below="@+id/passage1"
+                android:layout_marginTop="30dp"
+                android:background="#FFffc8">
+            </Button>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
