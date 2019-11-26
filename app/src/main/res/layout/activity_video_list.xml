@@ -37,7 +37,7 @@
             android:layout_marginTop="130dp">
 
             <Button
-                android:id="@+id/passage1"
+                android:id="@+id/video1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -57,7 +57,7 @@
                 android:textSize="20sp"
                 android:textAllCaps="false"
                 android:fontFamily="serif"
-                android:layout_below="@+id/passage1"
+                android:layout_below="@+id/video1"
                 android:layout_marginTop="30dp"
                 android:background="#FFffc8">
             </Button>

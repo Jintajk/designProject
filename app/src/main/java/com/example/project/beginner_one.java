@@ -52,7 +52,7 @@ public class beginner_one extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new intent(beginner_one.this,basics1.class);
+                Intent intent = new Intent(beginner_one.this,basics1.class);
                 startActivity(intent);
             }
         });

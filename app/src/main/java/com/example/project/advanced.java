@@ -41,7 +41,8 @@ public class advanced extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent
+                Intent intent = new Intent(advanced.this,basics1.class);
+                startActivity(intent);
             }
         });
 
@@ -68,7 +69,7 @@ public class advanced extends AppCompatActivity {
         video.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(advanced.this,Videos.class);
+                Intent intent = new Intent(advanced.this,Video_list.class);
                 startActivity(intent);
             }
         });
